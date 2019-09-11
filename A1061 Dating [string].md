@@ -5,7 +5,7 @@
 #include<string.h>
 using namespace std;
 int main(){
-    char str[4][100] ;
+    char str[4][100];
     char week[7][5]={"MON","TUE","WED","THU","FRI","SAT","SUN"};
     for(int i=0;i<4;i++){
         scanf("%s",str[i]);
